@@ -17,29 +17,27 @@
 
 2. Gameplay Mechanics
 
-  Main Objective: Keep the bird flying as long as possible by avoiding obstacles.
+  a. Main Objective: Keep the bird flying as long as possible by avoiding obstacles.
 
-  Player Controls: Spacebar to make the bird flap upwards.
+  b. Player Controls: Spacebar to make the bird flap upwards.
 
-  Physics Mechanics:
+3. Physics Mechanics:
 
-  Gravity pulls the bird down.
+  a. Gravity pulls the bird down.
 
-  Each tap applies an upward force.
+  b. Each tap applies an upward force.
 
-Obstacles:
+4. Obstacles:
 
-  Pipes appear at random heights.
+  a. Pipes appear at random heights.
 
-  Collision with pipes results in game over.
+  b. Collision with pipes results in game over.
 
-  Game Speed: The difficulty increases over time as speed gradually increases.
+  c. Power-Ups: None
 
-  Power-Ups: None
+  d. Score System: Score increases when passing through pipes (High score not implemented).
 
-  Score System: Score increases when passing through pipes (High score not implemented).
-
-3. Game Flow
+5. Game Flow
 
   Start Screen:
 
@@ -57,14 +55,12 @@ Obstacles:
     Game Over Conditions: Hitting a pipe.
 
     Win/Lose Conditions: Endless gameplay; only a lose condition.
-
-4. UI/UX Design
+    
+6. UI/UX Design
 
    HUD Elements:
-
-    Score display
-
-    Pause button
+      Score display
+      Pause button
 
   Menus:
 
@@ -76,7 +72,7 @@ Obstacles:
 
 
 
-5. Development Details
+7. Development Details
 
   Game Engine: Unity
 
